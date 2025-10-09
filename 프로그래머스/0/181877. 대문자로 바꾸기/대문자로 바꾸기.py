@@ -1,3 +1,5 @@
 def solution(myString):
-    answer = myString.upper()
+    answer = ''
+    for i in myString:
+        answer+=i.upper()
     return answer
